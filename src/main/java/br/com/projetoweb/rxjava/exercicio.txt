@@ -1,0 +1,18 @@
+1: Criar e configurar um projeto Maven com RxJava
+    - Crie um projeto maven e adicione a dependencia do RxJava
+
+2: Criar um Observable e Observer simples
+    - Crie uma classe MeuPrimeiroObservable no diretório src/main/java/br/com/reativo
+    - Dentro da classe crie um observable que emite números inteiros de 1 a 10
+    - Crie um Observer que se inscreve no Observable e imprime os itens emitidos
+
+3: Usar operadores para transformar e filtrar itens
+    - Modifique o observable anterior, agora use o operador Map para multiplicar todos os números por 3
+    - Use o operador Filter para emitir apenas os números pares
+    - Se inscreva e imprima os itens emitidos
+
+4: Lidar com erros na sequência Observable
+    - Modifique o Observable anterior;
+        use outro operador Map para lançar o erro em um valor específico (exemplo 4)
+    - Use o operador OnErrorResumeNext para lidar com o erro e continuar emitindo itens.
+    - Se inscreva e imprima os itens emitidos.
